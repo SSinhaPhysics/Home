@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S Sinha Physics</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar .logo {
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .navbar .logo img {
+            border-radius: 50%;
+            height: 50px;
+            vertical-align: middle;
+            width: 50px;
+            object-fit: cover;
+        }
+        .navbar .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+        .navbar .nav-links a {
+            color: white;
+            padding: 14px 0;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        .navbar .nav-links a:hover {
+            color: #ddd;
+        }
+        .header {
+            text-align: center;
+            padding: 80px 20px;
+            background-color: #fff;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            color: #4CAF50;
+            font-size: 3em;
+            margin: 0;
+        }
+        .section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .map-section {
+            background-color: #e2e2e2;
+        }
+        .map-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            transition: background-color 0.3s ease;
+            margin: 10px;
+        }
+        .map-button:hover {
+            background-color: #0056b3;
+        }
+        .contact-section {
+            background-color: #fff;
+        }
+        .contact-section h2 {
+            color: #4CAF50;
+        }
+        .contact-info {
+            font-size: 1.1em;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="Logo.jpeg" class="logo">
+            <img src="Logo.jpeg" alt="S Sinha Physics" style="height: 50px; vertical-align: middle;">
+        </a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="download.html">Download</a>
+        </div>
+    </div>
+
+    <div class="header">
+        <h1>S Sinha Physics</h1>
+    </div>
+
+    <div class="section map-section">
+        <h2>Find My Centers</h2>
+        <p>Click the button below to get directions to our centers.</p>
+        <a href="https://www.google.com/maps/dir/?api=1&destination=S+Sinha+Physics+Tuition/@23.220459,87.0915888,17z/data=!3m1!4b1!4m6!3m5!1s0x39f7a5004a36e1b1:0xab5386b562f2f713!8m2!3d23.2204541!4d87.0941637!16s%2Fg%2F11m642l5y4?entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="map-button">Bhadul 🗺️</a>
+        <br>
+        <a href="https://www.google.com/maps/dir/?api=1&destination=" target="_blank" class="map-button">Pratap Bagan 🗺️</a>
+    </div>
+
+    <div class="section contact-section">
+        <h2>Contact Me</h2>
+        <div class="contact-info">
+            <p><strong>Mobile Number :</strong> +91 12345 67890</p>
+            <p>Feel free to call me for any inquiries!</p>
+        </div>
+    </div>
+
+    <div id="gallery" class="section" style="display: none;">
+        <h2>Gallery</h2>
+        <p>This section is for displaying photos of our facilities, students, and events.</p>
+    </div>
+
+    <div id="download" class="section" style="display: none;">
+        <h2>Download</h2>
+        <p>This section is for downloadable content like brochures, forms, or study materials.</p>
+    </div>
+
+</body>
+</html>
